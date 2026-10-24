@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>爱情岛 ️禁十八｜同城约会交友平台，真实认证会员等你来邂逅</title>
+    <meta name="description" content="爱情岛 ️禁十八是国内领先的同城约会交友平台，汇聚千万真实认证会员。支持视频认证、兴趣匹配、同城速配，严格18+年龄审核机制保障安全。无论你寻找心动邂逅还是成熟约会，爱情岛为你搭建真实可靠的情感连接桥梁。每日超10万对成功匹配，覆盖全国300+城市，VIP会员专享优先匹配与隐私保护。加入爱情岛，开启属于你的浪漫旅程。">
+    <meta name="keywords" content="爱情岛 ️禁十八,爱情岛,禁十八,同城约会,交友平台,视频认证,会员匹配,成年交友">
+    <link rel="canonical" href="https://aqdjsb.pages.dev/">
+    <meta property="og:title" content="爱情岛 ️禁十八｜同城约会交友平台，真实认证会员等你来邂逅">
+    <meta property="og:description" content="爱情岛 ️禁十八是国内领先的同城约会交友平台，汇聚千万真实认证会员。支持视频认证、兴趣匹配、同城速配，严格18+年龄审核机制保障安全。每日超10万对成功匹配，覆盖全国300+城市。">
+    <meta property="og:url" content="https://aqdjsb.pages.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="爱情岛 ️禁十八">
+    <meta property="og:locale" content="zh_CN">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="爱情岛 ️禁十八｜同城约会交友平台，真实认证会员等你来邂逅">
+    <meta name="twitter:description" content="爱情岛 ️禁十八是国内领先的同城约会交友平台，汇聚千万真实认证会员。支持视频认证、兴趣匹配、同城速配。">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "爱情岛 ️禁十八",
+            "url": "https://aqdjsb.pages.dev/",
+            "description": "爱情岛 ️禁十八是国内领先的同城约会交友平台，汇聚千万真实认证会员，支持视频认证、兴趣匹配、同城速配。",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://aqdjsb.pages.dev/search?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "爱情岛 ️禁十八",
+            "url": "https://aqdjsb.pages.dev/",
+            "description": "真实同城约会交友平台",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "CN"
+            }
+        }
+    </script>
+    <!-- UIkit CSS CDN -->
+    <link rel="stylesheet" href="assets/vendor/uikit/css/uikit.min.css">
+    <!-- UIkit JS CDN -->
+    <script src="assets/vendor/uikit/js/uikit.min.js">
+    </script>
+    <script src="assets/vendor/uikit/js/uikit-icons.min.js">
+    </script>
+    
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="applicable-device" content="pc,mobile">
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://aqdjsb.pages.dev/","title":"爱情岛 ️禁十八｜同城约会交友平台，真实认证会员等你来邂逅","pubDate":"2026-10-23T16:11:06","upDate":"2026-10-23T16:11:06"}</script>
+<link rel="stylesheet" href="assets/f2pe2t.css">
+</head>
+<body>
+
+    <!-- ============ 年龄确认弹窗 ============ -->
+    <div class="age-gate-overlay" id="ageGate">
+        <div class="age-gate-modal">
+            <div class="gate-icon">🔞</div>
+            <h3>请确认您已年满18周岁</h3>
+            <p>爱情岛 ️禁十八是专为成年用户打造的同城约会交友平台。根据相关法律法规，本站内容仅面向年满18周岁的用户。请诚实确认您的年龄。</p>
+            <div class="age-gate-btns">
+                <button class="btn-gate-yes" onclick="confirmAge()">我已满18岁，进入平台</button>
+                <button class="btn-gate-no" onclick="denyAge()">未满18岁，离开</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============ 移动端侧滑菜单遮罩 ============ -->
+    <div class="mobile-side-overlay" id="mobileOverlay" onclick="closeMobileMenu()"></div>
+    <!-- 移动端侧滑菜单 -->
+    <div class="mobile-side-menu" id="mobileSideMenu">
+        <button class="mobile-menu-close" onclick="closeMobileMenu()">✕</button>
+        <a href="#" class="mobile-menu-link active" onclick="closeMobileMenu()">🏠 首页</a>
+        <a href="#category1" class="mobile-menu-link" onclick="closeMobileMenu()">📍 同城约会</a>
+        <a href="#category2" class="mobile-menu-link" onclick="closeMobileMenu()">✅ 视频认证</a>
+        <a href="#category3" class="mobile-menu-link" onclick="closeMobileMenu()">👑 VIP会员</a>
+        <a href="#category4" class="mobile-menu-link" onclick="closeMobileMenu()">💞 兴趣匹配</a>
+        <a href="#faq" class="mobile-menu-link" onclick="closeMobileMenu()">❓ 常见问题</a>
+    </div>
+
+    <!-- ============ Toast 通知 ============ -->
+    <div class="toast-notification" id="toastNotify">
+        <span class="toast-dot"></span>
+        <span>🎉 有3位新会员刚刚加入，快去看看吧！</span>
+    </div>
+
+    <!-- ============ 桌面侧边悬浮 ============ -->
+    <div class="desktop-side-float">
+        <button class="float-btn float-primary" title="快速匹配" onclick="scrollToSection('featured')">💘</button>
+        <button class="float-btn" title="在线客服" onclick="showToastMsg('客服将在工作时间回复您')">💬</button>
+        <button class="float-btn" title="返回顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆</button>
+    </div>
+
+    <!-- ============ 导航栏 ============ -->
+    <nav class="site-navbar" id="siteNavbar">
+        <div class="nav-brand-row">
+            <a href="#" class="nav-logo">
+                <span class="logo-icon">💝</span>
+                <span>爱情岛 ️禁十八</span>
+            </a>
+            <div class="nav-actions">
+                <button class="nav-icon-btn" title="搜索">🔍</button>
+                <button class="btn-signin">注册 / 登录</button>
+                <button class="mobile-menu-toggle" onclick="openMobileMenu()" aria-label="菜单">☰</button>
+            </div>
+        </div>
+        <div class="nav-channel-row">
+            <a href="#" class="nav-channel-link active">🏠 首页</a>
+            <a href="#category1" class="nav-channel-link">📍 同城约会</a>
+            <a href="#category2" class="nav-channel-link">✅ 视频认证</a>
+            <a href="#category3" class="nav-channel-link">👑 VIP会员</a>
+            <a href="#category4" class="nav-channel-link">💞 兴趣匹配</a>
+            <span class="nav-badge-18">18+</span>
+        </div>
+    </nav>
+
+    <!-- ============ 主要内容区 ============ -->
+    <main>
+
+        <!-- 板块1: Hero 首屏 -->
+        <section class="hero-section">
+            <div class="hero-inner">
+                <div class="hero-badge">
+                    <span class="dot"></span> 严格18+年龄审核 · 真实认证交友
+                </div>
+                <h1 class="hero-title">在<span class="highlight">爱情岛 ️禁十八</span>，遇见同城心动的TA</h1>
+                <p class="hero-subtitle">千万认证会员在线，视频验证真实无虚假。同城速配、兴趣匹配、VIP专属特权，开启你的浪漫约会新方式。</p>
+                <div class="hero-btn-group">
+                    <button class="btn-primary-lg" onclick="scrollToSection('featured')">💘 立即匹配</button>
+                    <button class="btn-outline-lg" onclick="scrollToSection('category2')">✅ 视频认证专区</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块2: 数据统计条 -->
+        <div class="stats-strip">
+            <div class="container">
+                <div class="stat-capsule">
+                    <span class="stat-dot"></span>
+                    <span>在线会员</span>
+                    <span class="stat-value">128,539</span>
+                </div>
+                <div class="stat-capsule">
+                    <span>今日注册</span>
+                    <span class="stat-value">6,842</span>
+                </div>
+                <div class="stat-capsule">
+                    <span>覆盖城市</span>
+                    <span class="stat-value">300+</span>
+                </div>
+                <div class="stat-capsule">
+                    <span>成功匹配</span>
+                    <span class="stat-value">10.2万/日</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- 板块3: 精选推荐 (id=featured) -->
+        <section class="section-block" id="featured">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">爱情岛 ️禁十八<span class="icon-accent">✨</span>精选推荐</h2>
+                    <span class="section-more">刷新推荐 🔄</span>
+                </div>
+                <div class="card-grid">
+                    <!-- 卡片1 -->
+                    <div class="user-card">
+                        <div class="card-img">
+                            <div class="img-placeholder">🌸</div>
+                            <span class="online-dot"></span>
+                            <span class="badge-vip">VIP</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-name-row">
+                                <span class="card-name">小雅</span>
+                                <span class="card-age">24岁</span>
+                            </div>
+                            <div class="card-tags">
+                                <span class="tag-capsule tag-city">北京</span>
+                                <span class="tag-capsule tag-interest">旅行</span>
+                                <span class="tag-capsule tag-verified">已认证</span>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-sm-heart">💗 喜欢</button>
+                                <button class="btn-sm-chat">私聊</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 卡片2 -->
+                    <div class="user-card">
+                        <div class="card-img">
+                            <div class="img-placeholder">🌺</div>
+                            <span class="online-dot"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-name-row">
+                                <span class="card-name">思涵</span>
+                                <span class="card-age">26岁</span>
+                            </div>
+                            <div class="card-tags">
+                                <span class="tag-capsule tag-city">上海</span>
+                                <span class="tag-capsule tag-interest">美食</span>
+                                <span class="tag-capsule tag-verified">已认证</span>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-sm-heart">💗 喜欢</button>
+                                <button class="btn-sm-chat">私聊</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 卡片3 -->
+                    <div class="user-card">
+                        <div class="card-img">
+                            <div class="img-placeholder">🌷</div>
+                            <span class="badge-vip">VIP</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-name-row">
+                                <span class="card-name">雨桐</span>
+                                <span class="card-age">23岁</span>
+                            </div>
+                            <div class="card-tags">
+                                <span class="tag-capsule tag-city">广州</span>
+                                <span class="tag-capsule tag-interest">音乐</span>
+                                <span class="tag-capsule tag-verified">已认证</span>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-sm-heart">💗 喜欢</button>
+                                <button class="btn-sm-chat">私聊</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 卡片4 -->
+                    <div class="user-card">
+                        <div class="card-img">
+                            <div class="img-placeholder">🌻</div>
+                            <span class="online-dot"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-name-row">
+                                <span class="card-name">梦洁</span>
+                                <span class="card-age">25岁</span>
+                            </div>
+                            <div class="card-tags">
+                                <span class="tag-capsule tag-city">深圳</span>
+                                <span class="tag-capsule tag-interest">摄影</span>
+                                <span class="tag-capsule tag-verified">已认证</span>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn-sm-heart">💗 喜欢</button>
+                                <button class="btn-sm-chat">私聊</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块4: 分类导航入口 -->
+        <section class="section-block" style="background:#fff; border-radius:var(--radius-lg); margin:0 20px; padding:36px 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">爱情岛 ️禁十八<span class="icon-accent">🧭</span>快速入口</h2>
+                </div>
+                <div class="category-entry-grid">
+                    <a href="#category1" class="category-entry-card">
+                        <div class="cat-icon cat-icon-1">📍</div>
+                        <span class="cat-label">同城约会</span>
+                        <span class="cat-desc">附近的人实时匹配</span>
+                    </a>
+                    <a href="#category2" class="category-entry-card">
+                        <div class="cat-icon cat-icon-2">✅</div>
+                        <span class="cat-label">视频认证</span>
+                        <span class="cat-desc">真人验证杜绝虚假</span>
+                    </a>
+                    <a href="#category3" class="category-entry-card">
+                        <div class="cat-icon cat-icon-3">👑</div>
+                        <span class="cat-label">VIP会员</span>
+                        <span class="cat-desc">专属特权优先匹配</span>
+                    </a>
+                    <a href="#category4" class="category-entry-card">
+                        <div class="cat-icon cat-icon-4">💞</div>
+                        <span class="cat-label">兴趣匹配</span>
+                        <span class="cat-desc">找到灵魂契合的TA</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块5: 同城约会 (#category1) -->
+        <section class="section-block" id="category1">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="icon-accent">📍</span>同城约会 · 附近的人</h2>
+                    <span class="section-more">查看更多 ›</span>
+                </div>
+                <div class="card-grid cols-3">
+                    <div class="user-card">
+                        <div class="card-img">
+                            <div class="img-placeholder">🏙️</div>
+                            <span class="online-dot"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">婉清</span><span class="card-age">27岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">杭州</span><span class="tag-capsule tag-verified">已认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img">
+                            <div class="img-placeholder">🌆</div>
+                            <span class="badge-vip">VIP</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">诗琪</span><span class="card-age">25岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">成都</span><span class="tag-capsule tag-interest">烘焙</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img">
+                            <div class="img-placeholder">🌃</div>
+                            <span class="online-dot"></span>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">若曦</span><span class="card-age">24岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">武汉</span><span class="tag-capsule tag-verified">已认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块6: 视频认证 (#category2) -->
+        <section class="section-block" id="category2" style="background:#fff; border-radius:var(--radius-lg); margin:0 20px;">
+            <div class="container" style="padding-top:20px; padding-bottom:20px;">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="icon-accent">✅</span>视频认证会员 · 百分百真实</h2>
+                    <span class="section-more">查看更多 ›</span>
+                </div>
+                <div class="card-grid cols-3">
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🎥</div><span class="online-dot"></span><span class="badge-vip">VIP</span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">安琪</span><span class="card-age">26岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">南京</span><span class="tag-capsule tag-verified">视频认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">📹</div><span class="online-dot"></span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">欣然</span><span class="card-age">28岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">重庆</span><span class="tag-capsule tag-verified">视频认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🎬</div><span class="badge-vip">VIP</span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">语嫣</span><span class="card-age">25岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">苏州</span><span class="tag-capsule tag-verified">视频认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块7: VIP会员 (#category3) -->
+        <section class="section-block" id="category3">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="icon-accent">👑</span>VIP会员 · 专属特权</h2>
+                    <span class="section-more">了解VIP ›</span>
+                </div>
+                <div class="card-grid cols-3">
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">💎</div><span class="online-dot"></span><span class="badge-vip">VIP</span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">梓涵</span><span class="card-age">23岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">长沙</span><span class="tag-capsule tag-interest">瑜伽</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🌟</div><span class="badge-vip">VIP</span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">瑾瑜</span><span class="card-age">29岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">西安</span><span class="tag-capsule tag-verified">已认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">👑</div><span class="online-dot"></span><span class="badge-vip">VIP</span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">雪莹</span><span class="card-age">26岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">郑州</span><span class="tag-capsule tag-interest">读书</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块8: 兴趣匹配 (#category4) -->
+        <section class="section-block" id="category4" style="background:#fff; border-radius:var(--radius-lg); margin:0 20px;">
+            <div class="container" style="padding-top:20px; padding-bottom:20px;">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="icon-accent">💞</span>兴趣匹配 · 灵魂契合</h2>
+                    <span class="section-more">查看更多 ›</span>
+                </div>
+                <div class="card-grid cols-3">
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🎵</div><span class="online-dot"></span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">乐瑶</span><span class="card-age">24岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-interest">音乐</span><span class="tag-capsule tag-interest">钢琴</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🏃</div><span class="badge-vip">VIP</span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">悦然</span><span class="card-age">27岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-interest">健身</span><span class="tag-capsule tag-interest">跑步</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🎨</div><span class="online-dot"></span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">艺菲</span><span class="card-age">25岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-interest">绘画</span><span class="tag-capsule tag-interest">设计</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块9: 新会员速配 -->
+        <section class="section-block">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="icon-accent">🆕</span>新会员速配</h2>
+                    <span class="section-more">刷新列表 🔄</span>
+                </div>
+                <div class="card-grid">
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🌼</div><span class="online-dot"></span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">新会员·晴</span><span class="card-age">22岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">合肥</span><span class="tag-capsule tag-verified">新认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🌿</div></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">新会员·琳</span><span class="card-age">26岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">福州</span><span class="tag-capsule tag-verified">新认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🍀</div><span class="online-dot"></span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">新会员·瑶</span><span class="card-age">23岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">昆明</span><span class="tag-capsule tag-verified">新认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                    <div class="user-card">
+                        <div class="card-img"><div class="img-placeholder">🌱</div><span class="badge-vip">VIP</span></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">新会员·璇</span><span class="card-age">28岁</span></div>
+                            <div class="card-tags"><span class="tag-capsule tag-city">南昌</span><span class="tag-capsule tag-verified">新认证</span></div>
+                            <div class="card-actions"><button class="btn-sm-heart">💗 喜欢</button><button class="btn-sm-chat">私聊</button></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块10: 热门动态 -->
+        <section class="section-block" style="background:#fff; border-radius:var(--radius-lg); margin:0 20px;">
+            <div class="container" style="padding-top:20px; padding-bottom:20px;">
+                <div class="section-header">
+                    <h2 class="section-title">爱情岛 ️禁十八<span class="icon-accent">🔥</span>热门动态</h2>
+                    <span class="section-more">更多动态 ›</span>
+                </div>
+                <div class="info-list">
+                    <div class="info-list-item">
+                        <div class="info-avatar" style="background:linear-gradient(135deg,#E5446D,#F472B6);">A</div>
+                        <div class="info-content">
+                            <div class="info-title">艾米更新了相册：周末旅行随拍</div>
+                            <div class="info-meta">12分钟前 · 北京 · 28人点赞</div>
+                        </div>
+                    </div>
+                    <div class="info-list-item">
+                        <div class="info-avatar" style="background:linear-gradient(135deg,#6C2BD9,#A78BFA);">B</div>
+                        <div class="info-content">
+                            <div class="info-title">贝拉发布了新动态：寻找周末一起看展的朋友</div>
+                            <div class="info-meta">28分钟前 · 上海 · 56人回应</div>
+                        </div>
+                    </div>
+                    <div class="info-list-item">
+                        <div class="info-avatar" style="background:linear-gradient(135deg,#10B981,#6EE7B7);">C</div>
+                        <div class="info-content">
+                            <div class="info-title">楚楚通过了视频认证，获得认证徽章</div>
+                            <div class="info-meta">45分钟前 · 广州 · 103人祝贺</div>
+                        </div>
+                    </div>
+                    <div class="info-list-item">
+                        <div class="info-avatar" style="background:linear-gradient(135deg,#F59E0B,#FCD34D);">D</div>
+                        <div class="info-content">
+                            <div class="info-title">丹丹分享了约会心得：第一次见面选哪里好？</div>
+                            <div class="info-meta">1小时前 · 深圳 · 89条讨论</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块11: 安全交友提示 -->
+        <section class="section-block">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="icon-accent">🛡️</span>安全交友提示</h2>
+                </div>
+                <div class="safety-tips-grid">
+                    <div class="safety-tip-card">
+                        <div class="tip-icon" style="background:#FDE8EE;">🔒</div>
+                        <div class="tip-content">
+                            <h4>隐私保护</h4>
+                            <p>您的个人信息经过加密处理，未经授权不会向第三方透露。VIP会员享更高隐私级别。</p>
+                        </div>
+                    </div>
+                    <div class="safety-tip-card">
+                        <div class="tip-icon" style="background:#EDE4FB;">✅</div>
+                        <div class="tip-content">
+                            <h4>视频认证机制</h4>
+                            <p>通过视频认证的会员带有专属标识，让每一次匹配都建立在真实可信的基础上。</p>
+                        </div>
+                    </div>
+                    <div class="safety-tip-card">
+                        <div class="tip-icon" style="background:#FEF3C7;">⚠️</div>
+                        <div class="tip-content">
+                            <h4>警惕诈骗</h4>
+                            <p>请勿向陌生人转账或透露银行卡信息。如遇可疑行为，请立即通过平台举报功能反馈。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块12: 成功故事 -->
+        <section class="section-block" style="background:#fff; border-radius:var(--radius-lg); margin:0 20px;">
+            <div class="container" style="padding-top:20px; padding-bottom:20px;">
+                <div class="section-header">
+                    <h2 class="section-title">爱情岛 ️禁十八<span class="icon-accent">💝</span>成功故事</h2>
+                    <span class="section-more">更多故事 ›</span>
+                </div>
+                <div class="card-grid cols-3">
+                    <div class="user-card" style="cursor:default;">
+                        <div class="card-img" style="padding-bottom:55%;"><div class="img-placeholder" style="font-size:2.5rem;">💑</div></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">小陈 & 小雅</span></div>
+                            <p style="font-size:0.8rem;color:var(--text-secondary);">在爱情岛相识三个月后牵手成功，感谢平台让我们相遇。</p>
+                        </div>
+                    </div>
+                    <div class="user-card" style="cursor:default;">
+                        <div class="card-img" style="padding-bottom:55%;"><div class="img-placeholder" style="font-size:2.5rem;">💕</div></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">阿杰 & 思涵</span></div>
+                            <p style="font-size:0.8rem;color:var(--text-secondary);">通过同城匹配功能发现彼此只隔两条街，缘分就是这么奇妙。</p>
+                        </div>
+                    </div>
+                    <div class="user-card" style="cursor:default;">
+                        <div class="card-img" style="padding-bottom:55%;"><div class="img-placeholder" style="font-size:2.5rem;">💖</div></div>
+                        <div class="card-body">
+                            <div class="card-name-row"><span class="card-name">大卫 & 若曦</span></div>
+                            <p style="font-size:0.8rem;color:var(--text-secondary);">视频认证给了彼此安全感，现在已经订婚啦。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块13: CTA 转化条 -->
+        <section class="section-block">
+            <div class="container">
+                <div class="cta-strip">
+                    <h3>💘 准备好遇见心动的TA了吗？</h3>
+                    <p>加入爱情岛 ️禁十八，千万认证会员等你来邂逅。现在就注册，开启属于你的浪漫故事。</p>
+                    <button class="btn-cta-white">免费注册 · 开始匹配</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 板块14: FAQ 手风琴 -->
+        <section class="section-block" id="faq">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="icon-accent">❓</span>常见问题</h2>
+                </div>
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>爱情岛 ️禁十八是如何保障用户真实性的？</summary>
+                        <div class="faq-answer">我们采用多重验证机制，包括手机号绑定、视频认证、实名信息核验等方式。通过视频认证的会员会获得专属标识，确保您看到的每一份资料都真实可信。平台还设有举报和审核团队，持续监控异常行为。</div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>VIP会员有哪些专属特权？</summary>
+                        <div class="faq-answer">VIP会员享受优先匹配推荐、无限私聊次数、高级搜索筛选、隐私浏览模式、专属客服通道等多项特权。同时VIP会员的资料会获得更多曝光，匹配成功率提升显著。</div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>同城约会功能如何使用？</summary>
+                        <div class="faq-answer">授权位置信息后，系统会自动为您推荐附近的会员。您可以设置距离范围、年龄偏好和兴趣标签，精准筛选心仪对象。同城匹配让线下见面更加便捷高效。</div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>平台如何保护用户隐私？</summary>
+                        <div class="faq-answer">所有用户数据均经过加密存储，传输过程采用SSL安全协议。您可以随时在隐私设置中调整个人资料的可见范围，VIP会员还可启用隐身模式浏览他人资料不留痕迹。</div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>不满18岁可以注册吗？</summary>
+                        <div class="faq-answer">不可以。爱情岛 ️禁十八严格遵循法律法规，仅向年满18周岁的成年用户开放。注册时需通过年龄验证，未满18岁将无法完成注册流程。</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ 移动端底部 Sticky Bar ============ -->
+    <div class="mobile-sticky-bar">
+        <button class="btn-sticky-main">💘 立即匹配</button>
+    </div>
+
+    <!-- ============ Footer ============ -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>爱情岛 ️禁十八</h4>
+                    <ul>
+                        <li><a href="#">关于我们</a></li>
+                        <li><a href="#">加入我们</a></li>
+                        <li><a href="#">品牌故事</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>服务支持</h4>
+                    <ul>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">安全指南</a></li>
+                        <li><a href="#">举报反馈</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>法律条款</h4>
+                    <ul>
+                        <li><a href="#">用户协议</a></li>
+                        <li><a href="#">隐私政策</a></li>
+                        <li><a href="#">社区规范</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>联系我们</h4>
+                    <ul>
+                        <li><a href="#">客服邮箱</a></li>
+                        <li><a href="#">商务合作</a></li>
+                        <li><a href="#">媒体联系</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 爱情岛 ️禁十八 版权所有</span>
+                <span>aqdjsb.pages.dev</span>
+                <span>🔞 仅限18岁以上用户访问</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // ============ 年龄确认弹窗逻辑 ============
+        function confirmAge() {
+            localStorage.setItem('ageConfirmed', 'true');
+            document.getElementById('ageGate').classList.add('hidden');
+            showToast();
+        }
+
+        function denyAge() {
+            document.body.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100vh;text-align:center;padding:20px;font-family:sans-serif;color:#555;"><div><h2 style="color:#E5446D;">抱歉，您需要年满18岁才能访问</h2><p style="margin-top:12px;">感谢您的理解。请年满18周岁后再来访爱情岛 ️禁十八。</p></div></div>';
+        }
+        // 检查是否已确认年龄
+        if (localStorage.getItem('ageConfirmed') === 'true') {
+            document.getElementById('ageGate').classList.add('hidden');
+            setTimeout(showToast, 600);
+        }
+
+        // ============ Toast 通知 ============
+        function showToast() {
+            const toast = document.getElementById('toastNotify');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 4000);
+        }
+
+        function showToastMsg(msg) {
+            const toast = document.getElementById('toastNotify');
+            toast.querySelector('span:last-child').textContent = msg;
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+                toast.querySelector('span:last-child').textContent = '🎉 有3位新会员刚刚加入，快去看看吧！';
+            }, 3500);
+        }
+
+        // ============ 移动端菜单 ============
+        function openMobileMenu() {
+            document.getElementById('mobileSideMenu').classList.add('open');
+            document.getElementById('mobileOverlay').classList.add('open');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeMobileMenu() {
+            document.getElementById('mobileSideMenu').classList.remove('open');
+            document.getElementById('mobileOverlay').classList.remove('open');
+            document.body.style.overflow = '';
+        }
+        // 点击遮罩关闭
+        document.getElementById('mobileOverlay').addEventListener('click', closeMobileMenu);
+        // ESC关闭
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') closeMobileMenu();
+        });
+
+        // ============ 滚动到指定板块 ============
+        function scrollToSection(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                const navHeight = document.getElementById('siteNavbar').offsetHeight;
+                const y = el.getBoundingClientRect().top + window.pageYOffset - navHeight - 10;
+                window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+        }
+
+        // ============ 导航频道链接 active 状态更新 ============
+        const channelLinks = document.querySelectorAll('.nav-channel-link');
+        channelLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                channelLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // ============ 初始化：页面加载后显示 Toast（如果年龄已确认） ============
+        if (localStorage.getItem('ageConfirmed') === 'true') {
+            setTimeout(showToast, 800);
+        }
+    </script>
+</body>
+</html>
